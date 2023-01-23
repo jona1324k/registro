@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = esp>
+    <head>
+        <meta charset="UTF-8">
+        <title> Inicio de sesion</title>
+        <link href="css/estilos-registroUsuari.css" tipo="text/css" rel="stylesheet">
+        <meta http-equiv="Cache-control" content="no-cache, mustrevalidate">
+
+    </head>
+
+    <body>
+        
+        <header class="cabecera">
+        
+            <div id="cabecera-logo">
+             
+                <div id="contenedor-logo"> 
+            <img src="Imagenes/cuarzo.png" width="50%" height="50vh">  
+            </br>
+            <h1 id="cabecera-titulo"> Cuarzos</h1>
+            </div>
+    
+            <div id="contenedor-logo2">
+            
+            <nav>
+                <ul class="lista">
+                    
+                    <li> <a href="sesion.html">sesion</a></li>
+                    
+                    
+                </ul>
+            </nav>
+        </div>
+    
+            </div>
+    
+    
+        </header>
+        <main class = "princi">
+        <br/>
+        
+
+        
+        <div class="formulario" > 
+
+        <form  action="conexion/registro.php" method="post" > 
+            <h1>Registro de cuenta</h1>
+             
+            <br/>
+             <p>
+            <label> Nombre:</label>
+            <input type="text"  name = "nombre" class="cuadroText" autocomplete="nope">
+            </p>
+            <br/>
+            <p>
+            <label> Apellido:</label>
+            <input type = "text" name = "apellido" class="cuadroText" autocomplete="nope">
+            </p>
+            <br/>
+            <p>
+            <label>Contraseña:</label>
+            <input type = "text" name = "contrase" class="cuadroTextContra" autocomplete="nope">
+             </p>
+            <br/>
+            <p>
+            <label>Telefono:</label>
+            <input type = "text" name = "telefono" class="cuadroText" autocomplete="nope">
+             </p>
+            <br/>
+
+            <button id="boton-registrar" type="submit" name = "regis"> Registrar</button>
+
+        </form>
+
+        
+    </div>
+    <div>
+        
+    </div>
+</main>
+
+        
+    </body>
+
+
+
+
+
+
+</html>

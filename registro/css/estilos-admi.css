@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.html{
+    font-size: 62.5%;
+  }
+
+  .cabecera{
+    width: 100%;
+   
+    background-color:black;
+    
+}
+
+.cabecera-acomodo{
+    display: flex;
+}
+
+#cabecera-logo{
+display: flex;
+}
+
+#contenedor-logo{
+    display: flex;
+}
+
+#contenedor-logo2{
+    width: 100%;
+}
+
+#cabecera-titulo{
+    color: aqua;
+}
+
+.lista{
+    display: flex;
+    
+    list-style: none;
+    justify-content:right;
+    text-decoration: none;
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    font-size:xx-large;
+}
+
+
+#imagen{
+    width: 100%;
+    
+}
+
+.entrada{
+    position: absolute;
+    width: 25%;
+    left: 70%;
+    top: 40%;
+   
+
+}
+
+.contenedor-main{
+    width: 100%;
+    height: 1000px;
+    background-color: gray;
+
+}
+
+
+
+#titulo{
+    color: red;
+    text-align: center;
+}
+
+.introduccion{
+    width: 100%;
+    
+   border-style: solid;
+   display: flex;
+}
+
+#imagen-introduccion{
+    width: 40%;
+    height:20vh;
+   background-image: url('../Imagenes/cuarzoamatista.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#imagen-agataNaranja{
+    width: 40%;
+    height:20vh;
+   background-image: url('../Imagenes/cuarzo-agata-naranja.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#imagen-agataVerde{
+    width: 40%;
+    height:20vh;
+   background-image: url('../Imagenes/cuentas-de-agata-verde.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+#imagen-agataNegro{
+    width: 40%;
+    height:20vh;
+   background-image: url('../Imagenes/agata-negro-tira.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+
+#imagen-corazonAmatista{
+    width: 40%;
+    height:20vh;
+   background-image: url('../Imagenes/amatista.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+}
